@@ -6,8 +6,12 @@
 }
 
 body {
-    width: 80%;
     height: 100vh;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
 }
 
 
