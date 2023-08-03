@@ -1,12 +1,17 @@
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0; */
     border: solid 1px red
-}
+} 
 
 body {
     height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
 .hero {
@@ -14,5 +19,47 @@ body {
     flex-direction: column;
 }
 
+.header {
+    display: flex;  
+    justify-content: space-between;
+}
 
+.header-right {
+    display: flex;
+    gap: 10px;
+}
 
+.title {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.title-right {
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-instances {
+    display: flex;
+}
+
+.thumb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.call-action {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+}
