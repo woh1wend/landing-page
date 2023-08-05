@@ -1,3 +1,5 @@
+/* WEBPAGE GENERAL PROPERTIES 
+*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,7 +15,12 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: nowrap;
+    overflow: auto;
 }
+
+
+/* HEADER GENERAL */
 
 .header {
     display: flex;
@@ -34,6 +41,10 @@ body {
     gap: 30px;
 }
 
+
+
+/* MAIN TITLE GENERAL */
+
 .main-title {
     display: flex;
     justify-content: space-between;
@@ -47,6 +58,9 @@ body {
     max-width: 770px;
     
 }
+
+
+ /* MAIN TITLE LEFT */
 
 .title-left  {
     display: flex;
@@ -70,6 +84,9 @@ button {
     height: 30px;    
 }
 
+
+
+/* MAIN TITLE RIGHT */
 
 
 
