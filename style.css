@@ -7,10 +7,69 @@
 body {
     height: 100vh;
     max-width: 1440px;
+    padding: 20px;
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+    width: 100%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 15px;
+}
+
+.nav-right {
+    display: flex;
+    gap: 30px;
+}
+
+.main-title {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 15px;
+    gap: 35px;
+}
+
+.title-right, .title-left {
+    flex: 1;
+    max-width: 770px;
+    
+}
+
+.title-left  {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.title-left h1 {
+    font-size: 75px;
+}
+
+.title-left p {
+    font-size: 35px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;    
+}
+
+
+
 
